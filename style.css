@@ -1,0 +1,80 @@
+.container1{
+border:2px solid black ;
+height: 80px;
+display: flex;
+justify-content: space-around;
+background-color: black;
+color:white;
+border-radius: 20px;
+align-items: center;
+position: relative;
+top: 10px;
+
+}
+.child p{
+    margin: 0;
+    align-self: center;
+    padding: 3px;  
+
+}
+.child i{
+ margin: 15px ;  
+}
+.child-10 {
+    background-color: red;
+    color:white;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px; 
+    
+     
+}
+.container2{
+
+height: 40px;
+width: 550px;
+margin-left: 500px;
+ display: flex;
+justify-content: space-around;
+align-items: center;
+border-radius: 10px;
+border:2px solid;  
+
+}
+/* Green + Red share buttons */
+     .share-bar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 10px;
+      gap: 0;
+    } 
+
+    .share-green {
+      background-color: green;
+      color: white;
+      padding: 10px 25px;
+      border: none;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      /* font-weight: 500; */
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      /* white-space: nowrap; */
+    }
+
+    .share-red {
+      background-color: crimson;
+      color: white;
+      padding: 10px 25px;
+      border: none;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      /* font-weight: 500; */
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      /* white-space: nowrap; */
+    }
