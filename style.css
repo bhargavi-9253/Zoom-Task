@@ -29,7 +29,7 @@ top: 10px;
     
      
 }
-.container2{
+ .container2{
 
 height: 40px;
 width: 550px;
@@ -38,7 +38,7 @@ margin-left: 500px;
 justify-content: space-around;
 align-items: center;
 border-radius: 10px;
-border:2px solid;  
+/* border:2px solid;    */
 
 }
 /* Green + Red share buttons */
